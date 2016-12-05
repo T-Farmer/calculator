@@ -3,24 +3,36 @@
   passed in as arguments. Return the product.
  */
 
+function multiply(num1, num2) {
+  return num1 * num2
+}
 
 /*
   Create a function that adds two numbers
   passed in as arguments. Return the sum.
  */
 
+function add(num1, num2) {
+  return num1 + num2
+}
 
 /*
   Create a function that subtracts two numbers
   passed in as arguments. Return the difference.
  */
 
+function subtract(num1, num2) {
+  return num1 - num2
+}
 
 /*
   Create a function that divides two numbers
   passed in as arguments. Return the quotient.
  */
 
+function divide(num1, num2) {
+  return num1 / num2
+}
 
 
 /*
@@ -31,3 +43,11 @@
 
   Return the value of the operation.
  */
+
+function calculate(num1, num2, operation) {
+  return operation(num1, num2)
+}
+
+var answer = divide( 144, 12)
+
+console.log("answer", answer);
